@@ -9,6 +9,6 @@ nav_order: 1
 permalink: /
 ---
 
-Test. Test.
+Test. Test. Test.
 
 {% include components/do-dont-list/do-dont-list.html %}
