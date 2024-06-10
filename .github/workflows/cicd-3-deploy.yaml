@@ -57,6 +57,8 @@ jobs:
     steps:
       - name: "Checkout code"
         uses: actions/checkout@v4
+      - name: "Jekyll Deploy stage"
+        uses: ./.github/workflows/jekyll-2-deploy.yaml
   # TODO: More jobs or/and steps here
   # success:
   #   name: "Success notification"
